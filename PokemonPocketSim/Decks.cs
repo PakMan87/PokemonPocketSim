@@ -26,7 +26,7 @@ public class Decks
         new XSpeed(),
     ];
     
-    public static List<Card> SecondPlace =
+    public static List<Card> SpottedSecondPlace =
     [
         new PikachuEx(),
         new PikachuEx(),
@@ -50,7 +50,7 @@ public class Decks
         new RedCard()
     ];
     
-    public static List<Card> FourthPlace =
+    public static List<Card> AlphaWolfFourthPlace =
     [
         new PikachuEx(),
         new PikachuEx(),
@@ -74,7 +74,7 @@ public class Decks
         new LtSurge()
     ];
     
-    public static List<Card> FifthPlace =
+    public static List<Card> SeraFifthPlace =
     [
         new PikachuEx(),
         new PikachuEx(),
@@ -96,5 +96,29 @@ public class Decks
         new XSpeed(),
         new XSpeed(),
         new RedCard()
+    ];
+    
+    public static List<Card> AntEighthPlace =
+    [
+        new PikachuEx(),
+        new PikachuEx(),
+        new Electabuzz(),
+        new Pikachu(),
+        new Pikachu(),
+        new Raichu(),
+        new Raichu(),
+        new PokeBall(),
+        new PokeBall(),
+        new ProfessorsResearch(),
+        new ProfessorsResearch(),
+        new Potion(),
+        new Potion(),
+        new Sabrina(),
+        new Giovanni(),
+        new XSpeed(),
+        new XSpeed(),
+        new RedCard(),
+        new LtSurge(),
+        new LtSurge(),
     ];
 }

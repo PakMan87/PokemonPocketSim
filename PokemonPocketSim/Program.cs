@@ -18,6 +18,8 @@ class Program
             Scenarios.FourthPlaceGoingSecond,
             Scenarios.FifthPlaceGoingFirst,
             Scenarios.FifthPlaceGoingSecond,
+            Scenarios.EighthPlaceGoingFirst,
+            Scenarios.EighthPlaceGoingSecond,
         };
 
         foreach (var scenario in scenarios)
