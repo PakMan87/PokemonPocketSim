@@ -10,8 +10,6 @@ class Program
 
         var scenarios = new List<Scenario>()
         {
-            Scenarios.PikachuExRaichuVoltorbFirst,
-            Scenarios.PikachuExRaichuVoltorbSecond,
             Scenarios.SecondPlaceGoingFirst,
             Scenarios.SecondPlaceGoingSecond,
             Scenarios.FourthPlaceGoingFirst,
@@ -20,6 +18,8 @@ class Program
             Scenarios.FifthPlaceGoingSecond,
             Scenarios.EighthPlaceGoingFirst,
             Scenarios.EighthPlaceGoingSecond,
+            Scenarios.PikachuExRaichuVoltorbFirst,
+            Scenarios.PikachuExRaichuVoltorbSecond,
         };
 
         foreach (var scenario in scenarios)
