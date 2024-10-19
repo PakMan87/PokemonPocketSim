@@ -9,17 +9,59 @@ public class Scenario
 
 public class Scenarios
 {
-    public static Scenario PikachuExRaichuVoltorbSecond = new()
+    public static Scenario EightBasicsWithElectrodeSecond = new()
     {
-        name = "Pikachu Ex with Raichu and Voltorb going second",
-        deck = Decks.PikachuExRaichuVoltorb,
+        name = "8 Basics with Electrode going second",
+        deck = Decks.EightBasicsWithElectrode,
         Player = new PikachuPlayerSecond(),
     };
     
-    public static Scenario PikachuExRaichuVoltorbFirst = new()
+    public static Scenario EightBasicsWithElectrodeFirst = new()
     {
-        name = "Pikachu Ex with Raichu and Voltorb going first",
-        deck = Decks.PikachuExRaichuVoltorb,
+        name = "8 Basics with Electrode going first",
+        deck = Decks.EightBasicsWithElectrode,
+        Player = new PikachuPlayerFirst(),
+    };
+    
+    public static Scenario EightBasicsSecond = new()
+    {
+        name = "8 Basics going second",
+        deck = Decks.EightBasics,
+        Player = new PikachuPlayerSecond(),
+    };
+    
+    public static Scenario EightBasicsFirst = new()
+    {
+        name = "8 Basics going first",
+        deck = Decks.EightBasics,
+        Player = new PikachuPlayerFirst(),
+    };
+    
+    public static Scenario SixBasicsWithElectrodeSecond = new()
+    {
+        name = "6 Basics with Electrode going second",
+        deck = Decks.SixBasicsWithElectrode,
+        Player = new PikachuPlayerSecond(),
+    };
+    
+    public static Scenario SixBasicsWithElectrodeFirst = new()
+    {
+        name = "6 Basics with Electrode going first",
+        deck = Decks.SixBasicsWithElectrode,
+        Player = new PikachuPlayerFirst(),
+    };
+    
+    public static Scenario SixBasicsSecond = new()
+    {
+        name = "6 Basics going second",
+        deck = Decks.EightBasics,
+        Player = new PikachuPlayerSecond(),
+    };
+    
+    public static Scenario SixBasicsFirst = new()
+    {
+        name = "6 Basics going first",
+        deck = Decks.SixBasics,
         Player = new PikachuPlayerFirst(),
     };
     

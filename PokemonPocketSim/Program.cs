@@ -10,16 +10,22 @@ class Program
 
         var scenarios = new List<Scenario>()
         {
-            Scenarios.SecondPlaceGoingFirst,
-            Scenarios.SecondPlaceGoingSecond,
-            Scenarios.FourthPlaceGoingFirst,
-            Scenarios.FourthPlaceGoingSecond,
-            Scenarios.FifthPlaceGoingFirst,
-            Scenarios.FifthPlaceGoingSecond,
-            Scenarios.EighthPlaceGoingFirst,
-            Scenarios.EighthPlaceGoingSecond,
-            Scenarios.PikachuExRaichuVoltorbFirst,
-            Scenarios.PikachuExRaichuVoltorbSecond,
+            // Scenarios.SecondPlaceGoingFirst,
+            // Scenarios.SecondPlaceGoingSecond,
+            // Scenarios.FourthPlaceGoingFirst,
+            // Scenarios.FourthPlaceGoingSecond,
+            // Scenarios.FifthPlaceGoingFirst,
+            // Scenarios.FifthPlaceGoingSecond,
+            // Scenarios.EighthPlaceGoingFirst,
+            // Scenarios.EighthPlaceGoingSecond,
+            Scenarios.EightBasicsWithElectrodeFirst,
+            Scenarios.EightBasicsWithElectrodeSecond,
+            Scenarios.EightBasicsFirst,
+            Scenarios.EightBasicsSecond,
+            Scenarios.SixBasicsWithElectrodeFirst,
+            Scenarios.SixBasicsWithElectrodeSecond,
+            Scenarios.SixBasicsFirst,
+            Scenarios.SixBasicsSecond,
         };
 
         foreach (var scenario in scenarios)
